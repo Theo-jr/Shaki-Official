@@ -1,0 +1,275 @@
+/* 
+   File: assets/css/responsive.css
+   Description: Responsive design styles for Shaki website
+*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+    }
+    
+    /* Navigation */
+    .nav-links {
+        display: none;
+    }
+    
+    .mobile-menu {
+        display: block;
+    }
+    
+    .mobile-nav {
+        position: fixed;
+        top: 70px;
+        left: 0;
+        right: 0;
+        background-color: white;
+        padding: 1rem;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+        z-index: 999;
+    }
+    
+    .mobile-nav .nav-links {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .mobile-nav .nav-links li {
+        margin: 0.8rem 0;
+    }
+    
+    /* Hero Section */
+    .hero {
+        height: auto;
+        padding: 8rem 0 3rem;
+        flex-direction: column;
+    }
+    
+    .hero-content {
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+    }
+    
+    .hero-image {
+        position: static;
+        width: 100%;
+        height: 300px;
+        margin-top: 2rem;
+    }
+    
+    /* About Section */
+    .about-content {
+        flex-direction: column;
+    }
+    
+    .about-text, .about-image {
+        width: 100%;
+        padding-right: 0;
+    }
+    
+    .about-image {
+        height: 300px;
+        margin-top: 2rem;
+    }
+    
+    /* Collection Grid */
+    .collection-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Process Section */
+    .process-container {
+        flex-direction: column;
+    }
+    
+    .process-text, .process-video {
+        width: 100%;
+        padding-right: 0;
+    }
+    
+    .process-video {
+        margin-top: 2rem;
+    }
+    
+    /* Footer */
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    /* Navigation */
+    .nav-links {
+        display: none;
+    }
+    
+    .mobile-menu {
+        display: block;
+    }
+    
+    /* Hero Section */
+    .hero-content {
+        width: 60%;
+    }
+    
+    .hero-image {
+        width: 40%;
+    }
+    
+    .hero-title {
+        font-size: 2.8rem;
+    }
+    
+    /* About/Process Sections */
+    .about-content, .process-container {
+        flex-direction: column;
+    }
+    
+    .about-text, .process-text, .about-image, .process-video {
+        width: 100%;
+        padding-right: 0;
+    }
+    
+    .about-image, .process-video {
+        margin-top: 2rem;
+    }
+    
+    /* Collection Grid */
+    .collection-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    /* Footer */
+    .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    /* Hero Section */
+    .hero-content {
+        width: 55%;
+    }
+    
+    .hero-image {
+        width: 45%;
+    }
+    
+    .hero-title {
+        font-size: 3rem;
+    }
+    
+    /* About/Process Sections */
+    .about-text, .process-text {
+        width: 55%;
+    }
+    
+    .about-image, .process-video {
+        width: 40%;
+    }
+    
+    /* Collection Grid */
+    .collection-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    /* Minimal adjustments needed */
+    
+    /* Hero Section */
+    .hero-title {
+        font-size: 3.2rem;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1201px) {
+    /* Container can be wider */
+    .container {
+        max-width: 1400px;
+    }
+}
+
+/* Support for dark mode preference */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #121212;
+        --white: #1E1E1E;
+        --light-gray: #2D2D2D;
+        --medium-gray: #444444;
+        --text-color: #EEEEEE;
+        --light-text: #BBBBBB;
+    }
+    
+    .navbar {
+        background-color: rgba(30, 30, 30, 0.95);
+    }
+    
+    .logo {
+        color: var(--text-color);
+    }
+    
+    .nav-links a {
+        color: var(--text-color);
+    }
+    
+    .collection-item {
+        background-color: var(--light-gray);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+    
+    input, textarea {
+        background-color: var(--light-gray);
+        border: 1px solid var(--medium-gray);
+        color: var(--text-color);
+    }
+}
+
+/* Print styles */
+@media print {
+    body {
+        font-size: 12pt;
+    }
+    
+    .navbar, .footer, .mobile-menu, .btn, .hero-image, .contact-form {
+        display: none !important;
+    }
+    
+    .container {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    a {
+        text-decoration: underline;
+        color: #000 !important;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        page-break-after: avoid;
+        page-break-inside: avoid;
+    }
+    
+    img {
+        page-break-inside: avoid;
+        page-break-after: avoid;
+    }
+    
+    .collection-item {
+        page-break-inside: avoid;
+    }
+}

@@ -1,0 +1,348 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Olive Stitched Maxi Dress",
+      "price": 129.99,
+      "category": "dresses",
+      "images": [
+        "assets/images/products/olive-maxi-dress-1.jpg",
+        "assets/images/products/olive-maxi-dress-2.jpg"
+      ],
+      "description": "Hand-stitched olive maxi dress with unique embroidery patterns, perfect for special occasions. Each stitch is carefully placed to create a flowing pattern that complements the dress silhouette.",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Olive Green", "Black"],
+      "details": [
+        "100% sustainably sourced cotton",
+        "Handmade in small batches",
+        "Features signature Shaki stitch pattern",
+        "Adjustable waist ties",
+        "Pockets on both sides"
+      ],
+      "isNew": true,
+      "isFeatured": true,
+      "inStock": true,
+      "sku": "SHAKI-MD-OL-001"
+    },
+    {
+      "id": 2,
+      "name": "Minimalist Embroidered Blouse",
+      "price": 79.99,
+      "category": "tops",
+      "images": [
+        "assets/images/products/minimalist-blouse-1.jpg",
+        "assets/images/products/minimalist-blouse-2.jpg"
+      ],
+      "description": "Elegant minimalist blouse with hand-stitched patterns that add subtle sophistication. Perfect for both casual and formal occasions.",
+      "sizes": ["S", "M", "L"],
+      "colors": ["White", "Beige", "Black"],
+      "details": [
+        "Lightweight breathable fabric",
+        "Hand-embroidered neckline detail",
+        "Button-down back closure",
+        "Relaxed fit silhouette"
+      ],
+      "isNew": true,
+      "isFeatured": false,
+      "inStock": true,
+      "sku": "SHAKI-BL-MIN-002"
+    },
+    {
+      "id": 3,
+      "name": "Pattern Stitch Midi Skirt",
+      "price": 89.99,
+      "category": "bottoms",
+      "images": [
+        "assets/images/products/midi-skirt-1.jpg",
+        "assets/images/products/midi-skirt-2.jpg"
+      ],
+      "description": "Comfortable yet stylish midi skirt with unique hand-stitched pattern details. The flowy silhouette makes it perfect for both everyday wear and special events.",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Black", "Olive Green", "Navy"],
+      "details": [
+        "High-waisted design",
+        "Hidden side zipper",
+        "Hand-stitched hem detail",
+        "A-line silhouette",
+        "Falls below knee"
+      ],
+      "isNew": false,
+      "isFeatured": true,
+      "inStock": true,
+      "sku": "SHAKI-SK-MID-003"
+    },
+    {
+      "id": 4,
+      "name": "Signature Hand-Stitched Jacket",
+      "price": 199.99,
+      "category": "outerwear",
+      "images": [
+        "assets/images/products/signature-jacket-1.jpg",
+        "assets/images/products/signature-jacket-2.jpg"
+      ],
+      "description": "The iconic Shaki jacket featuring our signature hand-stitching technique that takes 3 days to complete. Each jacket is a unique piece of wearable art.",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Black", "Olive Green"],
+      "details": [
+        "Premium cotton blend fabric",
+        "Hand-embroidered throughout",
+        "Each piece is uniquely numbered",
+        "Front button closure",
+        "Two front pockets",
+        "Designed to be a statement piece"
+      ],
+      "isNew": false,
+      "isFeatured": true,
+      "inStock": true,
+      "sku": "SHAKI-JK-SIG-004"
+    },
+    {
+      "id": 5,
+      "name": "Summer Vacation Romper",
+      "price": 109.99,
+      "category": "sets",
+      "images": [
+        "assets/images/products/summer-romper-1.jpg",
+        "assets/images/products/summer-romper-2.jpg"
+      ],
+      "description": "Perfect for vacations, this lightweight romper features our signature stitch detail along the neckline. Comfortable yet chic for warm weather getaways.",
+      "sizes": ["XS", "S", "M", "L"],
+      "colors": ["Light Blue", "Beige", "Coral"],
+      "details": [
+        "Breathable linen blend fabric",
+        "Adjustable shoulder straps",
+        "Side pockets",
+        "Elasticized waist for comfort",
+        "Hand-stitched detailing on pockets and hem"
+      ],
+      "isNew": true,
+      "isFeatured": false,
+      "inStock": true,
+      "sku": "SHAKI-RP-SUM-005"
+    },
+    {
+      "id": 6,
+      "name": "Embroidered Cotton Pants",
+      "price": 119.99,
+      "category": "bottoms",
+      "images": [
+        "assets/images/products/cotton-pants-1.jpg",
+        "assets/images/products/cotton-pants-2.jpg"
+      ],
+      "description": "Comfortable cotton pants with detailed embroidery along the sides and hem. The perfect balance of comfort and style for everyday wear.",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Black", "White", "Navy"],
+      "details": [
+        "100% organic cotton",
+        "Wide-leg silhouette",
+        "Elastic waistband with drawstring",
+        "Hand-stitched pattern along outer seam",
+        "Two side pockets and two back pockets"
+      ],
+      "isNew": false,
+      "isFeatured": false,
+      "inStock": true,
+      "sku": "SHAKI-PT-EMB-006"
+    },
+    {
+      "id": 7,
+      "name": "Weekend Getaway Set",
+      "price": 169.99,
+      "category": "sets",
+      "images": [
+        "assets/images/products/weekend-set-1.jpg",
+        "assets/images/products/weekend-set-2.jpg"
+      ],
+      "description": "Our two-piece weekend set features a hand-stitched top and matching shorts, perfect for casual outings or lounging in style.",
+      "sizes": ["XS", "S", "M", "L"],
+      "colors": ["Sage Green", "Dusty Rose", "Cream"],
+      "details": [
+        "Matching set with top and shorts",
+        "Relaxed fit for comfort",
+        "Embroidered details on both pieces",
+        "Shorts have elastic waistband and pockets",
+        "Top features button closure at back"
+      ],
+      "isNew": true,
+      "isFeatured": true,
+      "inStock": true,
+      "sku": "SHAKI-ST-WKD-007"
+    },
+    {
+      "id": 8,
+      "name": "Minimalist Stitch Dress",
+      "price": 149.99,
+      "category": "dresses",
+      "images": [
+        "assets/images/products/minimalist-dress-1.jpg",
+        "assets/images/products/minimalist-dress-2.jpg"
+      ],
+      "description": "A clean, minimalist silhouette enhanced by our subtle signature stitching. Perfect for those who appreciate understated elegance.",
+      "sizes": ["S", "M", "L", "XL"],
+      "colors": ["Black", "White", "Beige"],
+      "details": [
+        "Mid-length design",
+        "Subtle stitch details along neckline and hem",
+        "Side seam pockets",
+        "Back zip closure",
+        "Slight A-line silhouette"
+      ],
+      "isNew": false,
+      "isFeatured": true,
+      "inStock": true,
+      "sku": "SHAKI-DR-MIN-008"
+    },
+    {
+      "id": 9,
+      "name": "Handcrafted Evening Gown",
+      "price": 249.99,
+      "category": "dresses",
+      "images": [
+        "assets/images/products/evening-gown-1.jpg",
+        "assets/images/products/evening-gown-2.jpg"
+      ],
+      "description": "Our most elaborate piece featuring intensive hand-stitching throughout. Each gown takes two weeks to create and is a true statement of artisanal craftsmanship.",
+      "sizes": ["S", "M", "L"],
+      "colors": ["Black", "Burgundy", "Navy"],
+      "details": [
+        "Floor-length silhouette",
+        "Made with premium fabric",
+        "Over 120 hours of hand-stitching per piece",
+        "Each piece is numbered and signed by our head designer",
+        "Subtle train detail",
+        "Hidden zip closure"
+      ],
+      "isNew": true,
+      "isFeatured": true,
+      "inStock": false,
+      "sku": "SHAKI-GN-EVE-009"
+    },
+    {
+      "id": 10,
+      "name": "Everyday Embroidered Tote",
+      "price": 69.99,
+      "category": "accessories",
+      "images": [
+        "assets/images/products/embroidered-tote-1.jpg",
+        "assets/images/products/embroidered-tote-2.jpg"
+      ],
+      "description": "Our first venture into accessories, this canvas tote features our signature hand-stitching and is perfect for daily use.",
+      "sizes": ["One Size"],
+      "colors": ["Natural", "Black", "Olive Green"],
+      "details": [
+        "100% heavy-duty canvas",
+        "Hand-embroidered front panel",
+        "Inner pocket with zip closure",
+        "Reinforced straps",
+        "15\" x 16\" x 5\""
+      ],
+      "isNew": true,
+      "isFeatured": false,
+      "inStock": true,
+      "sku": "SHAKI-AC-TOT-010"
+    },
+    {
+      "id": 11,
+      "name": "Statement Stitched Headband",
+      "price": 39.99,
+      "category": "accessories",
+      "images": [
+        "assets/images/products/headband-1.jpg",
+        "assets/images/products/headband-2.jpg"
+      ],
+      "description": "Complete your Shaki look with our hand-stitched headband, featuring our distinctive embroidery patterns.",
+      "sizes": ["One Size"],
+      "colors": ["Black", "Olive Green", "Cream", "Burgundy"],
+      "details": [
+        "Silk-cotton blend fabric",
+        "Elastic back for comfortable fit",
+        "Hand-embroidered throughout",
+        "Width varies from 2\" to 3\""
+      ],
+      "isNew": true,
+      "isFeatured": false,
+      "inStock": true,
+      "sku": "SHAKI-AC-HDB-011"
+    },
+    {
+      "id": 12,
+      "name": "Signature Kimono Wrap",
+      "price": 159.99,
+      "category": "outerwear",
+      "images": [
+        "assets/images/products/kimono-1.jpg",
+        "assets/images/products/kimono-2.jpg"
+      ],
+      "description": "Our versatile kimono wrap features hand-stitched details along the edges and can be styled multiple ways for different occasions.",
+      "sizes": ["S/M", "L/XL"],
+      "colors": ["Black", "Olive Green", "Dusty Rose"],
+      "details": [
+        "Lightweight flowy fabric",
+        "Wide sleeves with hand-stitched details",
+        "Falls to mid-thigh",
+        "Optional waist tie included",
+        "Can be worn open or closed"
+      ],
+      "isNew": false,
+      "isFeatured": true,
+      "inStock": true,
+      "sku": "SHAKI-OW-KIM-012"
+    }
+  ],
+  "categories": [
+    {
+      "id": "all",
+      "name": "All Products"
+    },
+    {
+      "id": "dresses",
+      "name": "Dresses"
+    },
+    {
+      "id": "tops",
+      "name": "Tops"
+    },
+    {
+      "id": "bottoms",
+      "name": "Bottoms"
+    },
+    {
+      "id": "outerwear",
+      "name": "Outerwear"
+    },
+    {
+      "id": "sets",
+      "name": "Sets"
+    },
+    {
+      "id": "accessories",
+      "name": "Accessories"
+    }
+  ],
+  "featured_collections": [
+    {
+      "id": "new-arrivals",
+      "name": "New Arrivals",
+      "description": "Our latest hand-stitched creations",
+      "image": "assets/images/collections/new-arrivals.jpg"
+    },
+    {
+      "id": "bestsellers",
+      "name": "Bestsellers",
+      "description": "Our most loved pieces",
+      "image": "assets/images/collections/bestsellers.jpg"
+    },
+    {
+      "id": "vacation-ready",
+      "name": "Vacation Ready",
+      "description": "Perfect pieces for your getaway",
+      "image": "assets/images/collections/vacation-ready.jpg"
+    },
+    {
+      "id": "essentials",
+      "name": "Shaki Essentials",
+      "description": "The foundation of your Shaki wardrobe",
+      "image": "assets/images/collections/essentials.jpg"
+    }
+  ]
+}

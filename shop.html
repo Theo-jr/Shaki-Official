@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Shaki</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/shop.js" defer></script>
+</head>
+<body>
+    <div class="page-wrapper">
+        <!-- Header will be loaded here -->
+        <div id="header-placeholder"></div>
+
+        <main class="shop-page">
+            <section class="hero-section">
+                <div class="container">
+                    <h1>Shop Collection</h1>
+                    <p>Discover our unique hand-stitched creations designed for comfort and style</p>
+                </div>
+            </section>
+
+            <section class="shop-filters">
+                <div class="container">
+                    <div class="filter-options">
+                        <div class="filter-group">
+                            <label for="category-filter">Category</label>
+                            <select id="category-filter">
+                                <option value="all">All Items</option>
+                                <option value="dresses">Dresses</option>
+                                <option value="tops">Tops</option>
+                                <option value="bottoms">Bottoms</option>
+                                <option value="accessories">Accessories</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label for="sort-filter">Sort By</label>
+                            <select id="sort-filter">
+                                <option value="newest">Newest</option>
+                                <option value="price-low">Price: Low to High</option>
+                                <option value="price-high">Price: High to Low</option>
+                                <option value="best-selling">Best Selling</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="product-grid">
+                <div class="container">
+                    <div class="products">
+                        <!-- Product 1 -->
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="assets/images/products/placeholder-1.jpg" alt="Embroidered Maxi Dress">
+                                <div class="product-overlay">
+                                    <button class="quick-view-btn">Quick View</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3>Embroidered Maxi Dress</h3>
+                                <p class="product-description">Hand-stitched floral pattern on olive green fabric</p>
+                                <p class="product-price">$189.00</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <!-- Product 2 -->
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="assets/images/products/placeholder-2.jpg" alt="Geometric Pattern Blouse">
+                                <div class="product-overlay">
+                                    <button class="quick-view-btn">Quick View</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3>Geometric Pattern Blouse</h3>
+                                <p class="product-description">Intricate hand-stitched geometric details</p>
+                                <p class="product-price">$120.00</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <!-- Product 3 -->
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="assets/images/products/placeholder-3.jpg" alt="Bohemian Summer Dress">
+                                <div class="product-overlay">
+                                    <button class="quick-view-btn">Quick View</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3>Bohemian Summer Dress</h3>
+                                <p class="product-description">Lightweight fabric with delicate stitching</p>
+                                <p class="product-price">$165.00</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <!-- Product 4 -->
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="assets/images/products/placeholder-4.jpg" alt="Elegant Evening Gown">
+                                <div class="product-overlay">
+                                    <button class="quick-view-btn">Quick View</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3>Elegant Evening Gown</h3>
+                                <p class="product-description">Sophisticated design with detailed embroidery</p>
+                                <p class="product-price">$250.00</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <!-- Product 5 -->
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="assets/images/products/placeholder-5.jpg" alt="Casual Weekend Top">
+                                <div class="product-overlay">
+                                    <button class="quick-view-btn">Quick View</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3>Casual Weekend Top</h3>
+                                <p class="product-description">Comfortable with subtle stitch detailing</p>
+                                <p class="product-price">$95.00</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <!-- Product 6 -->
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="assets/images/products/placeholder-6.jpg" alt="Statement Skirt">
+                                <div class="product-overlay">
+                                    <button class="quick-view-btn">Quick View</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3>Statement Skirt</h3>
+                                <p class="product-description">Bold pattern with precision hand-stitching</p>
+                                <p class="product-price">$135.00</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="pagination">
+                <div class="container">
+                    <div class="pagination-controls">
+                        <button class="pagination-prev">Previous</button>
+                        <div class="pagination-numbers">
+                            <a href="#" class="active">1</a>
+                            <a href="#">2</a>
+                            <a href="#">3</a>
+                        </div>
+                        <button class="pagination-next">Next</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Product Quick View Modal -->
+            <div id="quick-view-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <div class="modal-product-details">
+                        <div class="modal-product-image">
+                            <img id="modal-image" src="" alt="Product Image">
+                        </div>
+                        <div class="modal-product-info">
+                            <h2 id="modal-title">Product Title</h2>
+                            <p id="modal-price" class="modal-price">$0.00</p>
+                            <p id="modal-description" class="modal-description">Product description goes here.</p>
+                            <div class="modal-product-options">
+                                <div class="size-selection">
+                                    <label for="product-size">Size:</label>
+                                    <select id="product-size">
+                                        <option value="xs">XS</option>
+                                        <option value="s">S</option>
+                                        <option value="m">M</option>
+                                        <option value="l">L</option>
+                                        <option value="xl">XL</option>
+                                    </select>
+                                </div>
+                                <div class="quantity-selection">
+                                    <label for="product-quantity">Quantity:</label>
+                                    <div class="quantity-controls">
+                                        <button class="quantity-decrease">-</button>
+                                        <input type="number" id="product-quantity" value="1" min="1" max="10">
+                                        <button class="quantity-increase">+</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="modal-add-to-cart">Add to Cart</button>
+                            <div class="product-meta">
+                                <p>Hand-stitched with care</p>
+                                <p>Made in small batches</p>
+                                <p>Ethically sourced materials</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer will be loaded here -->
+        <div id="footer-placeholder"></div>
+    </div>
+
+    <!-- Additional Shop-specific JavaScript could go here -->
+     <script src="assets/js/shop-filters.js"></script>
+</body>
+</html>
